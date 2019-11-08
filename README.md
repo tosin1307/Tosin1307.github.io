@@ -17,5 +17,6 @@
 Создание IDEF0-диаграммы "Работа кофейни" в RAMUS (программное средство разработки структурно-функциональных моделей), с последующей декомпозицией
 * IDEF0-диаграмма PDC:
 ![None](https://raw.githubusercontent.com/tosin1307/Tosin1307.github.io/master/diag2.png)
+
 DFD-диаграмма шага "подавать кофе":
 ![None](https://github.com/tosin1307/Tosin1307.github.io/blob/master/diag3.png)
