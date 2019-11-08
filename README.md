@@ -5,7 +5,7 @@
 #### Пример IDEF0-диаграммы в RAMUS
 ![Name](https://raw.githubusercontent.com/tosin1307/Tosin1307.github.io/master/IDEF0%20.PNG)
 
-C моделью можно ознакомиться по [ссылке](https://Tosin1307.github.io/A.htm?id=167)
+C моделью можно ознакомиться по [ссылке](https://Tosin1307.github.io/A.html?id=167)
 ### Создание диаграммы классов и диаграммы прецедентов в PLANTUML
 * Индивидуальное задание UML <br>
 
