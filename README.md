@@ -14,6 +14,6 @@
 ![none](http://www.plantuml.com/plantuml/png/fP71IWCn48RFdQSOzgI7WWyWqgtdnGKFdiDkR4Et6vbayM25RVKeY3Vnui4NA491gQslC7aZPucLtZqaJBvyypCX0-SL-MPQWPkO-agHcg8gl2MyWTvG5PCHsQOkJsqbw69il8PUIcIl8nbMeeXegTIqZsxtyXgd2-NqlnChVUdHMoGp6dii3Ud26rj3d3S_GkKmuITUXZQq_17cOS6hq2Q_GXQ5_EnyH_BOyTfPOSvRtl2Irtz-l7tcJPSanXr_yKfEYmHsJqgZyyRVePNUTrw7Ht4Va5zu6-v5_vHGsHF8iT_7W_GGP7Lb1ZBnyKog7381inEP40QwBkKtVW00)
 
 ### Лабораторная работа №2 - определение подсистемы и надсистемы.
-Создание IDEF0-диаграммы "Создание скульптуры" в RAMUS (программное средство разработки структурно-функциональных моделей), с последующей декомпозицией
+Создание IDEF0-диаграммы "Работа кофейни" в RAMUS (программное средство разработки структурно-функциональных моделей), с последующей декомпозицией
 * IDEF0-диаграмма PDC:
 ![None](https://raw.githubusercontent.com/tosin1307/Tosin1307.github.io/master/diag2.png)
