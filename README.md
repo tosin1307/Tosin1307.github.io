@@ -16,4 +16,4 @@
 ### Лабораторная работа №2 - определение подсистемы и надсистемы.
 Создание IDEF0-диаграммы "Создание скульптуры" в RAMUS (программное средство разработки структурно-функциональных моделей), с последующей декомпозицией
 * IDEF0-диаграмма PDC:
-![None](https://raw.githubusercontent.com/tosin1307/Tosin1307.github.io/master/Ram2.PNG)
+![None](https://raw.githubusercontent.com/tosin1307/Tosin1307.github.io/master/diag2.png)
