@@ -8,63 +8,22 @@ autonumber
 
 actor "Клиент" as user
 boundary "Кассир" as app
-control "кофейные зерна." as http
+control "кофейные зерна" as http
 control "кофеварка" as web
 control "молоко и вода" as php
 entity "база данных" as mem
 control "менеджер" as ctl
-boundary "wire" as wire
+boundary "Кофе" as coffee
 
 user -> app: заказ
-app -> http
-activate http
-http -> web: post
-activate web
+app -> mem:ввести заказ 
+mem -> web:создать задачу на варку кофе
+web -> http: Выбор зерна 
+web -> php : подача молока и воды
+web -> coffee : варка кофе
+coffee -> app : 
+app -> user : выдача заказа
+user -> app : оплата заказа
+app ->mem : завершение заказа
 
-== store ==
-
-web -> php: store()
-activate php
-loop
-   php -> mem: lamp.store
-   activate mem
-   mem --> php: ok
-   deactivate mem
-end
-php --> web: ok
-deactivate php
-
-== set ==
-
-web -> php: set()
-activate php
-
-php -> mem: lamp.getlist
-activate mem
-mem -> php: list
-
-loop
-   php -> mem: find
-   mem -> php: lamp
-   php -> ctl: lamp.set
-   activate ctl
-   ctl -> wire: power
-   activate wire
-   wire --> ctl: ok
-   deactivate wire
-   ctl --> php: ok
-   deactivate ctl
-end
-deactivate mem
-php --> web: ok
-deactivate php
-
-== ==
-
-web --> http: ok
-deactivate web
-http --> app: ok
-deactivate http
-
-app --> user
 @enduml
