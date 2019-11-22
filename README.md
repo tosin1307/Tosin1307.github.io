@@ -26,3 +26,4 @@ DFD-диаграмма шага "подавать кофе":
 ![None](https://github.com/tosin1307/Tosin1307.github.io/blob/master/diag3.png)
 
 * Диаграмма последовательностей сделанная с помощью инструмента PlantUML ()
+![none](https://raw.githubusercontent.com/tosin1307/Tosin1307.github.io/master/RPDDJiCm48NN-1HMzroW2mJb4ApTrgLLapXo7I64aD82Ab9PiUGKQTL2eJHSONmZtiJzHIooiEURcVTUalE1KzPbSIG6_LwIAgjYgLhEM7adJXggrR-s9alQboR2rLMtvxGukR3Mt8IRHWG4eB5jRG-lxeNAd4cokAcj465YZTveHKjQqDgFQb8DP3P0jSaBbBsjweKV-Y4jVLxLLPgAb.png)
