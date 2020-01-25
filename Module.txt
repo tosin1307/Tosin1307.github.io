@@ -1,0 +1,49 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class Modules as "Модули"
+class Function as "Функции"
+class Handler as "Обработчик"
+
+class F1 as "Функция\nформирования\nрасписания"
+class F2 as "Функция\nотметки\nпосещения"
+class F3 as "Функция\nсохранения \nстатистики"
+class F4 as "Функция\nсоставления\nотчета"
+
+
+class M1 as "Модуль \nработы с \nподключениями \nк БД"
+class M2 as "Модуль \nвызова \nхранимых \nпроцедур"
+class M3 as "Модуль \nинтерфейсов \nобработчиков"
+
+class M4 as "Модуль \nобработки \nстатистики \nработы \nсервиса"
+class M5 as "Модуль \nфиксирования \nпосещения"
+class M6 as "Модуль \nпроверки \nданных"
+
+class M7 as "Модуль \nинициализации"
+class M9 as "Модуль \nвызова \nуведомления"
+
+Modules <|-- Function
+Modules <|-- Handler
+
+Function <|-- F1
+Function <|-- F2
+Function <|-- F3
+Function <|-- F4
+
+Handler <|-- M1
+Handler <|-- M2
+Handler <|-- M3
+Handler <|-- M4
+Handler <|-- M5
+Handler <|-- M6
+Handler <|-- M7
+Handler <|-- M9
+
+
+hide members
+hide circle
+hide methods
+@enduml
